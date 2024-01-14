@@ -8,6 +8,7 @@ console.log(message);
 console.log(orderReadyMessage);
 
 
+
 let helloWord = "สวัสดีค่ะ คุณลูกค้า";
 console.log(helloWord +" "+ cafeName +" "+ "ยินดีต้อนรับค่ะ");
 
