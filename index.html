@@ -5,6 +5,7 @@
 
 <p id ="subTitle">learn develop html </p>
 <p id="display"></p>
+<p id="display2"></p>
 
 <script>
 // We can put Javascript code here.
@@ -16,6 +17,14 @@ function callQueueCustomer(queueNumber, counterService){
 }
 callQueueCustomer(230, 3);
 document.getElementById("subTitle").innerHTML = "ทดสอบ"
+
+function callReceiveQueue(amountCustomer, queue){
+    document.getElementById("display2").innerHTML = "ลูกค้า จำนวน " + amountCustomer +" ท่าน"+" " +  "กรุณา รับคิวบริการ " + queue;
+}
+
+callReceiveQueue(4, "A");
+
+
 </script>
 
 </body>
