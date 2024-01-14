@@ -12,6 +12,7 @@ console.log(orderReadyMessage);
 let helloWord = "สวัสดีค่ะ คุณลูกค้า";
 console.log(helloWord +" "+ cafeName +" "+ "ยินดีต้อนรับค่ะ");
 
+//ชื่อตัวแปรเดิม นำมาใช้ซ้ำ ได้ 
 helloWord = "สวัสดีค่ะ ยินดีต้อนรับ สู่ร้าน";
 console.log(helloWord +" "+  cafeName + " "+ "ค่ะ");
 
