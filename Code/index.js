@@ -11,3 +11,5 @@ console.log(Name, Age)
 // //เปลี่ยนชื่อ ตอน log จะออกมาทั้งสอง 
 // Name = "Chopaka Akkapatarakosit 2"
 // console.log(Name)
+
+
