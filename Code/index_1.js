@@ -1,8 +1,21 @@
+// function greeting (customerName) {
+
+//     return "Hello " + customerName;
+// }
+
+// console.log(greeting("Ann"));
+
+// module.exports = greeting;
+
 function greeting (customerName) {
 
-    return "Hello " + customerName;
-}
+    if (customerName === "" ){
+        return "Hello คุณลูกค้า";
 
-console.log(greeting("Ann"));
-
-module.exports = greeting;
+        }
+        return "Hello " + customerName;
+    }
+    
+    console.log(greeting());
+    
+    module.exports = greeting;
