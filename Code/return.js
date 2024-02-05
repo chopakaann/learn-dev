@@ -1,17 +1,8 @@
 function sayHello (customerName) {
 
-    if(customerName ){
-
-        return "Hi ! " + customerName;
-    }else{
-        return "Hi ลูกค้า";
-
-    }
-    
+    return "Hello " + customerName
 }
 
 let greeting = sayHello("Ann");
 
 console.log(greeting);
-
-module.exports = sayHello;
