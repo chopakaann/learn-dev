@@ -8,9 +8,6 @@ function sayHelloCustomer (customerName) {
     }
     
     console.log(sayHelloCustomer());
-    
-    // module.exports = sayHelloCustomer;
-
 
     function noticeOrderMessage (customerName, statusOrder, menu) {
 
@@ -26,4 +23,4 @@ function sayHelloCustomer (customerName) {
         console.log(noticeOrderMessage());
         
         //กรณีที่มีการส่ง ไป 2 function
-        module.exports = {sayHelloCustomer, noticeOrderMessage};
+module.exports = {sayHelloCustomer, noticeOrderMessage};

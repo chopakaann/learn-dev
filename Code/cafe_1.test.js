@@ -28,8 +28,7 @@ test("notice order Success", () => {
 
     const aleartMessage = noticeOrderMessage("Parn","Success","อเมริกาโน่");
     expect(aleartMessage).toBe("อเมริกาโน่ ของคุณ Parn เสร็จแล้ว เชิญรับได้ที่เค้าเตอร์ค่ะ"); 
- 
-  
+   
 });
 
 test("notice order not Success", () => {
