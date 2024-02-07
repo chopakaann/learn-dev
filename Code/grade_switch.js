@@ -1,5 +1,6 @@
 
-let score = 80 ; 
+function gradeforUser (score){
+// let score = 50 ; 
 switch (true) {
     case score <= 50 :
         grade = "F";
@@ -16,7 +17,15 @@ switch (true) {
     default :
         grade = "A";
    
+    }
+    return grade;
 }
 
-console.log("คุณมีคะแนน " + score + " ได้เกรด " + grade)
+gradeforUser("99");
+console.log("คุณได้เกรด " + grade);
+
+// ทดสอบเพิ่มเติม 
+// const myScore = 99;
+// console.log(gradeforUser(myScore));
+// console.log("คุณมีคะแนน " + myScore + " ได้เกรด " + grade)
          
