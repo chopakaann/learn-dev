@@ -1,5 +1,5 @@
 
-function colors(birthdayOfWeek) {
+function colorsForPerson(birthdayOfWeek) {
 
 
 switch (birthdayOfWeek) {
@@ -104,4 +104,4 @@ switch (birthdayOfWeek) {
 
     }  
 }
-console.log(colors("Saterday"));
+console.log(colorsForPerson("Monday"));
