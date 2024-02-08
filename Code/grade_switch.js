@@ -22,7 +22,7 @@ switch (true) {
 }
 
 gradeforUser("99");
-console.log("คุณได้เกรด " + grade);
+console.log("คุณได้เกรด " + grade); 
 
 // ทดสอบเพิ่มเติม 
 // const myScore = 99;

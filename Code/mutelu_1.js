@@ -1,5 +1,6 @@
 
 function colorsForPerson(birthdayOfWeek) {
+   
 
 
 switch (birthdayOfWeek) {
@@ -10,7 +11,7 @@ switch (birthdayOfWeek) {
         lucky  = "Black , Purple, Brown";
         wealth = "Yellow , Gold , Orange";
         unlucky = "Red";
-        return ("สำหรับคนที่เกิด" +" " + "วัน"+birthdayOfWeek +"\nสีที่ใส่แล้วเสริมดวงด้าน อำนาจ ได้แก่ สี  --> " + empowerment
+        return ("สำหรับคนที่เกิด" +" " + "วัน"+" "+birthdayOfWeek +"\nสีที่ใส่แล้วเสริมดวงด้าน อำนาจ ได้แก่ สี  --> " + empowerment
         +"\nสีที่ใส่แล้วเสริมดวงด้าน สุขภาพ ได้แก่ สี --> " + health 
         +"\nสีที่ใส่แล้วเสริมดวงด้าน โชคลาภ ได้แก่ สี --> " + lucky
         +"\nสีที่ใส่แล้วเสริมดวงด้าน เงินทอง ได้แก่ สี --> " + wealth
@@ -23,7 +24,7 @@ switch (birthdayOfWeek) {
         lucky  = "Yellow , Gold, Orange";
         wealth = "Gray";
         unlucky = "White";
-        return ("สำหรับคนที่เกิด" +" " + "วัน"+birthdayOfWeek +"\nสีที่ใส่แล้วเสริมดวงด้าน อำนาจ ได้แก่ สี  --> " + empowerment
+        return ("สำหรับคนที่เกิด" +" " + "วัน"+" "+birthdayOfWeek +"\nสีที่ใส่แล้วเสริมดวงด้าน อำนาจ ได้แก่ สี  --> " + empowerment
         +"\nสีที่ใส่แล้วเสริมดวงด้าน สุขภาพ ได้แก่ สี --> " + health 
         +"\nสีที่ใส่แล้วเสริมดวงด้าน โชคลาภ ได้แก่ สี --> " + lucky
         +"\nสีที่ใส่แล้วเสริมดวงด้าน เงินทอง ได้แก่ สี --> " + wealth
@@ -35,7 +36,7 @@ switch (birthdayOfWeek) {
         lucky  = "Gray";
         wealth = "Blue";
         unlucky = "Pink";
-        return ("สำหรับคนที่เกิด" +" " + "วัน"+birthdayOfWeek +"\nสีที่ใส่แล้วเสริมดวงด้าน อำนาจ ได้แก่ สี  --> " + empowerment
+        return ("สำหรับคนที่เกิด" +" " + "วัน"+" "+birthdayOfWeek +"\nสีที่ใส่แล้วเสริมดวงด้าน อำนาจ ได้แก่ สี  --> " + empowerment
         +"\nสีที่ใส่แล้วเสริมดวงด้าน สุขภาพ ได้แก่ สี --> " + health 
         +"\nสีที่ใส่แล้วเสริมดวงด้าน โชคลาภ ได้แก่ สี --> " + lucky
         +"\nสีที่ใส่แล้วเสริมดวงด้าน เงินทอง ได้แก่ สี --> " + wealth
@@ -47,7 +48,7 @@ switch (birthdayOfWeek) {
         lucky  = "Red";
         wealth = "Gray, White";
         unlucky = "Black , Purple, Brown";
-        return ("สำหรับคนที่เกิด" +" " + "วัน"+birthdayOfWeek +"\nสีที่ใส่แล้วเสริมดวงด้าน อำนาจ ได้แก่ สี  --> " + empowerment
+        return ("สำหรับคนที่เกิด" +" " + "วัน"+" "+birthdayOfWeek +"\nสีที่ใส่แล้วเสริมดวงด้าน อำนาจ ได้แก่ สี  --> " + empowerment
         +"\nสีที่ใส่แล้วเสริมดวงด้าน สุขภาพ ได้แก่ สี --> " + health 
         +"\nสีที่ใส่แล้วเสริมดวงด้าน โชคลาภ ได้แก่ สี --> " + lucky
         +"\nสีที่ใส่แล้วเสริมดวงด้าน เงินทอง ได้แก่ สี --> " + wealth
@@ -59,7 +60,7 @@ switch (birthdayOfWeek) {
         lucky  = "Pink";
         wealth = "Green";
         unlucky = "Gray";
-        return ("สำหรับคนที่เกิด" +" " + "วัน"+birthdayOfWeek +"\nสีที่ใส่แล้วเสริมดวงด้าน อำนาจ ได้แก่ สี  --> " + empowerment
+        return ("สำหรับคนที่เกิด" +" " + "วัน"+" "+birthdayOfWeek +"\nสีที่ใส่แล้วเสริมดวงด้าน อำนาจ ได้แก่ สี  --> " + empowerment
         +"\nสีที่ใส่แล้วเสริมดวงด้าน สุขภาพ ได้แก่ สี --> " + health 
         +"\nสีที่ใส่แล้วเสริมดวงด้าน โชคลาภ ได้แก่ สี --> " + lucky
         +"\nสีที่ใส่แล้วเสริมดวงด้าน เงินทอง ได้แก่ สี --> " + wealth
@@ -71,7 +72,7 @@ switch (birthdayOfWeek) {
         lucky  = "Blue";
         wealth = "Red";
         unlucky = "Green";
-        return ("สำหรับคนที่เกิด" +" " + "วัน"+birthdayOfWeek +"\nสีที่ใส่แล้วเสริมดวงด้าน อำนาจ ได้แก่ สี  --> " + empowerment
+        return ("สำหรับคนที่เกิด" +" " + "วัน"+" "+birthdayOfWeek +"\nสีที่ใส่แล้วเสริมดวงด้าน อำนาจ ได้แก่ สี  --> " + empowerment
         +"\nสีที่ใส่แล้วเสริมดวงด้าน สุขภาพ ได้แก่ สี --> " + health 
         +"\nสีที่ใส่แล้วเสริมดวงด้าน โชคลาภ ได้แก่ สี --> " + lucky
         +"\nสีที่ใส่แล้วเสริมดวงด้าน เงินทอง ได้แก่ สี --> " + wealth
@@ -83,7 +84,7 @@ switch (birthdayOfWeek) {
         lucky  = "Green";
         wealth = "Black, Brown";
         unlucky = "Blue";
-        return ("สำหรับคนที่เกิด" +" " + "วัน"+birthdayOfWeek +"\nสีที่ใส่แล้วเสริมดวงด้าน อำนาจ ได้แก่ สี  --> " + empowerment
+        return ("สำหรับคนที่เกิด" +" " + "วัน"+" "+birthdayOfWeek +"\nสีที่ใส่แล้วเสริมดวงด้าน อำนาจ ได้แก่ สี  --> " + empowerment
         +"\nสีที่ใส่แล้วเสริมดวงด้าน สุขภาพ ได้แก่ สี --> " + health 
         +"\nสีที่ใส่แล้วเสริมดวงด้าน โชคลาภ ได้แก่ สี --> " + lucky
         +"\nสีที่ใส่แล้วเสริมดวงด้าน เงินทอง ได้แก่ สี --> " + wealth
@@ -95,7 +96,7 @@ switch (birthdayOfWeek) {
         lucky  = "Not Found Colors" ;
         wealth = "Not Found Colors" ;
         unlucky = "Not Found Colors" ;
-        return ("สำหรับคนที่เกิด" +" " + "วัน"+birthdayOfWeek +"\nสีที่ใส่แล้วเสริมดวงด้าน อำนาจ ได้แก่ สี  --> " + empowerment
+        return ("สำหรับคนที่เกิด" +" " + "วัน"+" "+birthdayOfWeek +"\nสีที่ใส่แล้วเสริมดวงด้าน อำนาจ ได้แก่ สี  --> " + empowerment
         +"\nสีที่ใส่แล้วเสริมดวงด้าน สุขภาพ ได้แก่ สี --> " + health 
         +"\nสีที่ใส่แล้วเสริมดวงด้าน โชคลาภ ได้แก่ สี --> " + lucky
         +"\nสีที่ใส่แล้วเสริมดวงด้าน เงินทอง ได้แก่ สี --> " + wealth
