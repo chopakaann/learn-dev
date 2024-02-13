@@ -4,8 +4,8 @@
 // ถ้าคะแนนน้อยกว่า 80  จะได้เกรด B
 // ถ้าคะแนน 80 ขึ้นไป จะได้เกรด A
 
-// function grade (score) {
-let score = 80
+function grade (score) {
+// let score = 80
     if (score <= 50){
         console.log("Grade F");
 
@@ -20,9 +20,8 @@ let score = 80
 
     }else 
         console.log("Grade A");
-// }
+}
 
 
-// console.log(grade(99));
-
+console.log(grade(99));
 

@@ -16,6 +16,6 @@ function greeting (customerName) {
         return "Hello " + customerName;
     }
     
-    console.log(greeting());
+    // console.log(greeting());
     
     module.exports = greeting;

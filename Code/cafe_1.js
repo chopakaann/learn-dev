@@ -7,7 +7,7 @@ function sayHelloCustomer (customerName) {
         return "สวัสดีค่ะ" +" "+ customerName+ " "+"วันนี้รับอะไรดีคะ";
     }
     
-    console.log(sayHelloCustomer());
+    // console.log(sayHelloCustomer());
 
     function noticeOrderMessage (customerName, statusOrder, menu) {
 
@@ -20,7 +20,7 @@ function sayHelloCustomer (customerName) {
             return "กำลังทำ"+ menu + " ของคุณ " + customerName +" "+"อยู่นะคะ กรุณารอสักครู่ค่ะ"
     }
         
-        console.log(noticeOrderMessage());
+        // console.log(noticeOrderMessage());
         
         //กรณีที่มีการส่ง ไป 2 function
 module.exports = {sayHelloCustomer, noticeOrderMessage};
